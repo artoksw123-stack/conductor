@@ -49,7 +49,7 @@
 &kp Q             &kp W      &kp E         &kp R                   &kp T                                      &kp Y                    &kp U  &kp I      &kp O         &kp P
 &kp A             &kp S      &kp D         &kp F                   &kp G                                      &kp H                    &kp J  &kp K      &kp L         &kp MINUS
 &mt LEFT_SHIFT Z  &kp X      &kp C         &kp V                   &kp B                                      &kp N                    &kp M  &kp COMMA  &kp PERIOD    &mt RIGHT_SHIFT SLASH
-&kp TAB           &kp LCTRL  &kp LEFT_ALT  &mt LEFT_COMMAND LANG2  &lt 1 SPACE  &lt 2 BACKSPACE  &lt 3 ENTER  &mt RIGHT_COMMAND LANG1                    &kp C_VOL_DN  &kp C_VOLUME_UP
+&kp TAB           &kp LCTRL  &kp LEFT_ALT  &mt LEFT_COMMAND LANG2  &lt 1 SPACE  &lt 2 BACKSPACE  &lt 3 ENTER  &mt RIGHT_COMMAND LANG1                    &kp C_VOL_DN  &lt 7 C_VOL_UP
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -113,10 +113,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans
+&trans  &trans  &trans         &trans         &trans                           &kp RA(RG(Y))  &kp RS(TAB)           &kp RG(UP_ARROW)    &kp TAB                &trans
+&trans  &trans  &trans         &trans         &trans                           &kp RG(Y)      &kp RC(RS(TAB))       &kp RG(I)           &kp RC(TAB)            &trans
+&trans  &trans  &kp RG(RA(C))  &kp RG(RA(V))  &trans                           &kp RS(RG(G))  &kp RG(LEFT_BRACKET)  &kp RG(DOWN_ARROW)  &kp RG(RIGHT_BRACKET)  &trans
+&trans  &trans  &trans         &trans         &trans  &kp RA(RG(DEL))  &trans  &trans                                                   &trans                 &trans
             >;
         };
 
