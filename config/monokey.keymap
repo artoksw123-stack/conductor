@@ -113,8 +113,8 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans         &trans         &trans                           &kp RA(RG(Y))  &kp RS(TAB)           &kp RG(UP_ARROW)    &kp TAB                &trans
-&trans  &trans  &trans         &trans         &trans                           &kp RG(Y)      &kp RC(RS(TAB))       &kp RG(I)           &kp RC(TAB)            &trans
+&trans  &trans  &trans         &trans         &trans                           &kp RA(RG(Y))  &kp RS(RC(TAB))       &kp RG(UP_ARROW)    &kp RC(TAB)            &trans
+&trans  &trans  &trans         &trans         &trans                           &kp RG(Y)      &kp RS(TAB)           &kp RG(I)           &kp TAB                &trans
 &trans  &trans  &kp RG(RA(C))  &kp RG(RA(V))  &trans                           &kp RS(RG(G))  &kp RG(LEFT_BRACKET)  &kp RG(DOWN_ARROW)  &kp RG(RIGHT_BRACKET)  &trans
 &trans  &trans  &trans         &trans         &trans  &kp RA(RG(DEL))  &trans  &trans                                                   &trans                 &trans
             >;
