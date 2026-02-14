@@ -27,6 +27,12 @@
             bindings = <&mkp MB3>;
             key-positions = <19 18>;
         };
+
+        mute {
+            bindings = <&kp K_MUTE>;
+            key-positions = <38 39>;
+            layers = <0>;
+        };
     };
 
     behaviors {
